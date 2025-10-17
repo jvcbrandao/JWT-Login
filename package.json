@@ -1,0 +1,35 @@
+{
+  "name": "login-jwt",
+  "version": "1.0.0",
+  "description": "👉 API de autenticação com JWT usando Node.js e Express",
+  "keywords": [
+    "node",
+    "express",
+    "jwt",
+    "authentication",
+    "api"
+  ],
+  "homepage": "https://github.com/jvcbrandao/JWT-Login#readme",
+  "bugs": {
+    "url": "https://github.com/jvcbrandao/JWT-Login/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvcbrandao/JWT-Login.git"
+  },
+  "license": "MIT",
+  "author": "João Vitor Brandão",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
